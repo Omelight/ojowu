@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+    background:linear-gradient(#a2d2ff, #efb0c9);
+    color: white;
+    text-align: center;
+
+}
+#header{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+
+}
+#pic-fire{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #efb0c9;
+}
+
+   
+
+h1, h2, h3, h4, p {
+    text-shadow: 0px 0px 1px blacks;
+}
+
+.age{
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background:#efb0c9;
+}
+.d-date{
+    margin: 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background:#efb0c9;
+}
+/*---------gift section ---------*/
+.gift-section{
+    margin-top: 50px;
+}
+.happy-cta{
+    margin-bottom: 10px;
+}
+.hover-cta{
+    margin-top: 0;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-shadow: 0px 0px 2px black;
+}
+.gift-img1{
+    width: 400px;
+    height: 400px;
+    background-image: url(images/gift2.jpg);
+    background-size: cover;
+    margin: 0 auto;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+#gift-1:hover{
+    background-image: url(images/happy.gif);
+}
+
+.gift-img2{
+    width: 400px;
+    height: 400px;
+    background-image: url(images/gift1.png);
+    background-size: cover;
+    margin: 0 auto;
+}
+#gift-2:hover{
+    background-image: url(images/wow-lady.gif);
+    
+}
+
+.gift-img3{
+    width: 400px;
+    height: 400px;
+    background-image: url(images/gift4.png);
+    background-size: cover;
+    margin: 0 auto;
+}
+#gift-3:hover{
+    background-image: url(images/genius.gif);
+    
+}
+.gift-img4{
+    width: 400px;
+    height: 400px;
+    background-image: url(images/gift2.jpg);
+    background-size: cover;
+    margin: 0 auto;
+    border: 5px solid white;
+    border-radius: 10px;
+    
+}
+#gift-4:hover{
+    background-image: url(images/badass.gif);
+    
+}
+
+.gift-img5{
+    width: 400px;
+    height: 200px;
+    background-image: url(images/gift5.png);
+    background-size: cover;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border: 5px solid white;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+#gift-5:hover{
+    background-image: url(images/cheers.gif);   
+}
+.footer{
+    font-style: italic;
+    width: 400px;
+    margin: 0 auto;
+}
+a{
+    color: white;
+}
